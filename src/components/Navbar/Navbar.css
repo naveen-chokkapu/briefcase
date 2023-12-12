@@ -1,0 +1,30 @@
+.nav-bar {
+    display: flex;
+    margin: 1% 7% 0 7%;
+    background-attachment: fixed;
+}
+.title {
+    display: flex;
+}
+.name {
+    margin-top: 2%;
+    font-weight: bolder;
+    width: 200px;
+    cursor: pointer;
+}
+.items {
+    margin-top: 2%;
+    display: flex;
+}
+.item:first-child {
+    margin-left: 60%;
+    color: blue;
+}
+.item {
+    margin-left: 5%;
+    display: block;
+}
+.item:hover {
+    color: blue;
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.cname  {
+    font-weight: bolder;
+    color: blue;
+    font-size: larger;
+    margin: 0 0 0 10.5%;
+}
+.citems {
+    margin: 3% 0 0 10.5%;
+    display: flex;
+}
+.citems:last-child {
+    margin-bottom: 5%;
+}
+.citem {
+    margin: 0 2% 0 0;
+}
+.citem img {
+    border-radius: 10px;
+    transform: scale3d(1.1);
+    transition: transform 0.5s;
+}
+.citem img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.btn {
+    display: flex;
+    width: 4vw;
+}
+.btn button {
+    border-radius: 50%;
+    margin: 100%;
+    background-color: rgba(72,72,72,0.53);
+    color: blue;
+    cursor: pointer;
+    padding: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+    font-family:"Young Serif", serif;
+}
+.btn button:hover {
+    transform: rotateX(10deg);
+    transition: transform 0.5s;
+}

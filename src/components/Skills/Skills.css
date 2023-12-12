@@ -1,0 +1,14 @@
+.skill-set {
+    margin: 1% 3% 0 3%;
+    display: flex;
+}
+.plitem {
+    color: white;
+    cursor: pointer;
+    font-size:xx-large;
+    margin: 3% 0 0 5% ;
+}
+.skill-right {
+    /* background-color: darkkhaki; */
+    /* width: 100vh; */
+}

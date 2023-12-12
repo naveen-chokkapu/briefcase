@@ -1,0 +1,86 @@
+.contact {
+    height: 80vh;
+}
+
+.contact-template {
+    background-color: rgba(72,72,72,0.53);
+    /* background-image: url("/public/contact-us.jpg"); */
+    border-radius: 10px;
+    height: 70vh;
+    margin: 1% 3% 0 3%;
+    display: flex;
+    color: blue;
+}
+.contact-name:first-child {
+    font-weight: bolder;
+    margin: 10% 0 0 15%;
+    width: 30vw;
+    font-size: larger;
+}
+.contact-name {
+    font-weight: bolder;
+    margin: 5% 0 0 15%;
+    width: 30vw;
+    font-size: larger;
+}   
+.contact-info {
+    margin: 3% 0 0 15%;
+    width: 50vw;
+}
+.contact-info input{
+    padding: 1.5% 5% 1.5% 2%;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 2%;
+    display: inline-block;
+    /* font-family: 'Young Serif', serif; */
+}
+textarea {
+    border-radius: 5px;
+    padding: 2%;
+    font-size: larger;
+    /* font-family: 'Young Serif', serif; */
+}
+.contact-info button {
+    padding: 1% 2% 1% 2%;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    margin-top: 1.25%;
+    font-family: 'Young Serif', serif;
+    cursor: pointer;
+}
+.address-name {
+    color: blue;
+    font-weight: bolder;
+    font-size: larger;
+}
+.address {
+    margin: 70% 0 0 0;
+    color: white;
+}
+.address-area {
+    margin-top: 2%;
+    cursor: pointer;
+}
+hr {
+    margin: 7% 0 0 0;
+    border: 0.1px solid grey;
+}
+.contact-details {
+    display: flex;
+}
+.iteme {
+    /* border: 1px solid white; */
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 50%; 
+    margin: 5% 5% 0 0 ;
+    font-size:xx-large;
+}
+li:first-child {
+    margin-top: 3%;
+}
+li {
+    margin-top: 1%;
+}

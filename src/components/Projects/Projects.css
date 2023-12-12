@@ -1,0 +1,15 @@
+.project {
+    margin: 5% 0 5% 10.5%;
+}
+.project img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px; 
+    transform: scale3d(1.1);
+    transition: transform 0.5s;
+}
+.project img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    cursor: pointer;
+}
